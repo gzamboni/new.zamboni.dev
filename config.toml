@@ -1,0 +1,51 @@
+baseURL = "https://zamboni.dev/"
+languageCode = "en-US"
+title = "Giovani Zamboni"
+# Enable comments by entering your Disqus shortname
+disqusShortname = "gzamboni"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = "UA-4924031-0"
+theme = "ztheme"
+enableEmoji = true
+
+[markup.goldmark.renderer]
+  unsafe= true
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "img/avatar.png"
+  author = "Giovani Zamboni"
+  description = "Giovani Zamboni is a software developer living in the Joinville"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "gzamboni"
+  Email         = "g@zamboni.dev"
+  Twitter       = "gzamboni"
+  LinkedIn      = "zamboni"
+  Stackoverflow = "gzamboni"
+  Medium        = "gzamboni"
+  Telegram      = "gzamboni"
+  RSS           = "/blog/index.xml"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+[[menu.main]]
+  name = "resume"
+  identifier = "resume"
+  weight = 300
+  url = "/resume/up-2-date/"
