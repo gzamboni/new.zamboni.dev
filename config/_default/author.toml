@@ -1,0 +1,19 @@
+name = "Giovani Zamboni"
+avatar = "images/avatar.png" # Avatar image. Default to "images/profile.webp".
+bio = "I am a software engineer from Brazil specializing in solving problems for tech companies abroad, remotely."
+company = 'TotvsLabs'
+# company = '<a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>'
+location = "Earth"
+# alternatives:
+# location = "<a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>"
+# location = "<a href='https://www.google.com/maps/search/Earth'>Earth</a>"
+# about = "https://domain.tld" # The external about page. The internal about page will be used if not set.
+
+[params]
+  #layout = "compact"
+
+[social]
+  email = "g@zamboni.dev"
+  github = "gzamboni"
+  twitter = "gzamboni"
+  linkedin = "zamboni"

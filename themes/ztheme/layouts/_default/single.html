@@ -12,6 +12,11 @@
       <span class="badge bg-primary">{{ . }}</span>
       {{ end }}
     </h6>
+    <h6>
+      {{ range .Param "authors" }}
+      {{ . }}
+      {{ end }}
+    </h6>
   </div>
   <div class="panel">
     <div class="panel-body">

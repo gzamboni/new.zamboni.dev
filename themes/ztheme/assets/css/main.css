@@ -1,9 +1,11 @@
 /* Main page with stikky-footer */
-html, body {
+html,
+body {
   height: 100%;
   background-color: #fff;
   /* font-family: 'Source Sans Pro', sans-serif; */
-  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue";
   /* The html and body elements cannot have any padding or margin. */
   border-top: 3px solid #222fa8;
 }
@@ -20,7 +22,7 @@ html, body {
 
 #about {
   font-size: 1.5rem;
-  font-weight: 300 
+  font-weight: 300;
 }
 
 .navbar .navbar-brand,
@@ -75,14 +77,14 @@ html, body {
 
 /* Custom page CSS */
 .container {
-  max-width: 800px;
+  max-width: 1024px;
   text-align: center;
 }
 
 .container strong {
   color: #0070f3;
   font-weight: 500;
-  text-shadow: #868585 .1em .1em .2em;
+  text-shadow: #868585 0.1em 0.1em 0.2em;
 }
 
 .container a {
@@ -93,7 +95,7 @@ html, body {
 
 .container a:hover {
   color: #0070f3;
-  text-shadow: #868585 .1em .1em .2em;
+  text-shadow: #868585 0.1em 0.1em 0.2em;
 }
 
 .container p img,
@@ -166,7 +168,7 @@ h5 a:hover {
   color: #000;
   padding: 10px;
   padding-bottom: 4px;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
 
 .social-links li a:hover {
