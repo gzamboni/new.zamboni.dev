@@ -1,4 +1,4 @@
-#!/usr/sbin/bash
+#!/bin/sh
 
 sed -i "s/&#x60;/\`/g" content/posts/*.md
 sed -i "s/&#x27;/\'/g" content/posts/*.md
