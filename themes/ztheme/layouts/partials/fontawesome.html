@@ -1,9 +1,0 @@
-<span
-  class="fontawesome-inline-svg"
-  style="display:inline-block; height:0.9em; width:0.9em; top:-0.12em; position:relative; color: #6b6b6b">
-  {{- $fname:=print "themes/ztheme/fontawesome/" . ".svg" -}}
-  {{- $svg := readFile $fname -}}
-  {{- $commentStrippedSvg := replaceRE "<!--[^>]*-->" "" $svg -}}
-  {{- $filledPathSvg := replace $commentStrippedSvg "<path" "<path fill='currentColor'" -}}
-  {{ $filledPathSvg | safeHTML }}
-</span>

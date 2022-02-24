@@ -3,7 +3,7 @@ avatar = "images/avatar.png" # Avatar image. Default to "images/profile.webp".
 bio = "I am a software engineer from Brazil specializing in solving problems for tech companies abroad, remotely."
 company = 'TotvsLabs'
 # company = '<a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>'
-location = "Earth"
+location = "Joinville, Brazil"
 # alternatives:
 # location = "<a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>"
 # location = "<a href='https://www.google.com/maps/search/Earth'>Earth</a>"

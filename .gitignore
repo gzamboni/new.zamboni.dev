@@ -1,2 +1,14 @@
 node_modules/
 .env
+public/
+content/posts/*.md
+!content/posts/_index.md
+static/images/*
+!static/images/icons
+!static/images/reward
+!static/images/avatar.png
+!static/images/logo.webp
+!static/images/markdown.png
+!static/images/profile.webp
+!static/images/shortcode.png
+
