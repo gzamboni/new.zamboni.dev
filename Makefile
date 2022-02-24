@@ -35,3 +35,7 @@ hugobuild: ## Build all static files using Hugc CMS
 	@hugo --gc --minify
 
 ci: fetchposts hugobuild ## Build hole thing
+
+server: fetchposts ## Start the hugo server
+	@echo "Starting hugo server..."
+	@hugo server --watch --baseURL="/"
