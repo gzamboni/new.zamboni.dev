@@ -41,6 +41,9 @@ poweredBy = false # Whether to show powered by.
 readingTime = true # Whether to display the reading time.
 postDate = true # Whether to display the post date in the post meta section.
 
+post_navigation = false
+
+
 # featuredPostCount = 10 # The number of featured posts shown in sidebar. Turn off by setting it to false.
 # recentPostCount = 10 # The number of recent posts shown in sidebar. Turn off by setting it to false.
 # relatedPostCount = 10 # The number of related posts. Turn off by setting it to false.
