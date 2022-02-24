@@ -38,4 +38,4 @@ ci: fetchposts hugobuild ## Build hole thing
 
 server: fetchposts ## Start the hugo server
 	@echo "Starting hugo server..."
-	@hugo server --watch --baseURL="/"
+	@hugo server 
