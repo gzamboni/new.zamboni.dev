@@ -26,7 +26,7 @@ install: ## Install all nodejs dependencies
 fetchposts: ## Fetch all posts from the zamboni.dev server
 	$(call check_defined, NOTION_KEY)
 	@echo "Fetching posts..."
-	@npx motionlink blog=$(NOTION_KEY)
+	@npx motionlink $(NOTION_KEY)
 	@echo "Cleanup..."
 	@bin/unescape.sh 
 
